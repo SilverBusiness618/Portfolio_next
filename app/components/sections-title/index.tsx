@@ -26,7 +26,6 @@ export const SectionsTitle = ({
         {...animProps}
         transition={{ duration: 0.5 }}
       >
-        {`../${subtitle}`}
       </motion.span>
       <motion.h3
         className='text-3xl font-medium'
